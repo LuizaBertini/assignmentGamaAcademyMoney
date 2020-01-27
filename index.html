@@ -9,13 +9,14 @@
 	<link rel="stylesheet" type="text/css" href="src/style.css">
 	<script type="text/javascript" src="src/script.js"></script>
 	<style>		
-		/* Always set the map height explicitly to define the size of the div
-	   * element that contains the map. */
+		
 		#map {
-			height: 50%;
-			width: 40%;			
+			height: 400px;
+			width: 400px;	
+			border: 5px solid black; 
+			margin-top: 100px;
 		}
-		/* Optional: Makes the sample page fill the window. */
+		
 		html, body {
 			height: 100%;
 			margin: 0;
@@ -31,7 +32,9 @@
 	<div class="contact">
 		<div class="socialmedia">
 			<img src="facebook.png" width="30" height="30">
-		    <img src="instagram.png" width="30" height="30">
+			<img src="instagram.png" width="30" height="30">
+			<img src="twitter.png" width="30" height="30">
+			<img src="whats.png" width="30" height="30">
 		</div>		
 	</div>
 
@@ -46,16 +49,21 @@
 					<li>Sobre</li>
 					<li>Atrações</li>
 					<li>Ingressos</li>
-					<li>FAQ</li>
+					<li><a href="#faq">FAQ</a></li>
 					<li>Como Chegar</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
 	<br><br>
-		<div class = local>
-			<div class = localdiscription>
-				<h5 style="color:white;">COMO CHEGAR</h5>
+		<div class = "local">
+			<div class = "localdiscription">
+				<div class = "localtext">
+					<p style="color:white; font-family:Verdana;font-size:20px;">COMO CHEGAR</p>
+					<br> <br>
+					<p style="color:white; font-family:Verdana; font-size:13px;"><b>ENDEREÇO:</b>AV. PAULISTA Nº10</p>
+					
+				</div>				
 			</div>
 			<div id="map">
 				<script>
@@ -75,6 +83,92 @@
 	
 	
 	<br><br>
+	<div class = "faq">
+		<div class = "written">
+			<p style="color: #FFFFFF; font-family:Verdana;font-size:20px;">F.A.Q.</p>	
+		</div>
+    </div>
+	<div class = "containerfaq" id="faq">
+		
+		<div class = questions>	
+			<div class="questions1">
+				<div class = "itemfaq"> 
+					<div class = "textfaq"><p>Como contatar organizadores?</p></div>
+					<button class = "readmorebtn" onclick="myFunction()" id="myBtn"><img src="setabaixo.png" width="20px" height="19px"></button> 						
+				</div>
+
+				<div class = "showmore">										
+					<span id="dots"></span>
+					<span id="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.</span>
+				</div> 			 				
+				
+				<br><br>
+				
+				<div class = "itemfaq"> 
+					<div class = "textfaq"><p>Como contatar organizadores?</p></div>
+					<button class = "readmorebtn" onclick="myFunction2()" id="myBtn2"><img src="setabaixo.png" width="20px" height="19px"></button> 
+				</div>
+
+				<div class = "showmore">					
+					<span id="dots2"></span>
+					<span id="more2">Lore ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel</span>
+				   </div>
+
+				<br><br>
+
+				<div class = "itemfaq"> 
+					<div class = "textfaq"><p>Como contatar organizadores?</p></div>
+					<button class = "readmorebtn" onclick="myFunction3()" id="myBtn3"><img src="setabaixo.png" width="20px" height="19px"></button> 
+				</div>
+
+				<div class = "showmore">
+					<span id="dots3"></span>
+					<span id="more3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel</span>
+				   </div>
+				
+			</div>
+
+			<div class = "redcolumn"> </div>
+
+			<div class="questions2">
+				<div class = "itemfaq"> 
+					<div class = "textfaq"><p>Como contatar organizadores?</p></div>
+					<button class = "readmorebtn" onclick="myFunction4()" id="myBtn4"><img src="setabaixo.png" width="20px" height="19px"></button> 
+				</div>
+
+				<div class = "showmore">
+					<span id="dots4"></span>
+					<span id="more4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel</span>
+				   </div>
+
+			
+			<br><br>
+
+			<div class = "itemfaq"> 
+				<div class = "textfaq"><p>Como contatar organizadores?</p></div>
+				<button class = "readmorebtn" onclick="myFunction5()" id="myBtn5"><img src="setabaixo.png" width="20px" height="19px"></button> 				
+			</div>
+
+			<div class = "showmore">				
+				<span id="dots5"></span>
+				<span id="more5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel</span>
+			   </div>
+
+			<br><br>
+
+			<div class = "itemfaq"> 
+				<div class = "textfaq"><p>Como contatar organizadores?</p></div>
+				<button class = "readmorebtn" onclick="myFunction6()" id="myBtn6"><img src="setabaixo.png" width="20px" height="19px"></button> 
+			</div>
+			<div class = "showmore">				
+				<span id="dots6"></span>
+				<span id="more6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel</span>
+			   </div>
+
+			</div>
+		</div>
+
+	</div>
 
 	<footer class="footer">
 		<div id="logo-footer">logo</div>
