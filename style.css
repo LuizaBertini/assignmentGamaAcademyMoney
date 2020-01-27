@@ -1,0 +1,98 @@
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.contact {
+	background-color: #25221E;
+	height: 50px;	
+}
+
+.socialmedia{
+	background-color: #25221E;
+	height: 50px;
+	width: 10%;
+	display:flex;
+	align-items: center;   
+	justify-items: flex-start;
+	justify-content: space-around;	
+}
+
+.containerlogo {
+	background-color: #d3d3d3;
+	height: 100px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	background-color: #E9E9E9;
+}
+
+.navbar {
+	background-color: #515151;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-menu {
+	color: #fff;
+}
+
+.menu {
+	list-style: none;
+	display: inline-flex;
+	justify-content: center;
+}
+
+.menu li {
+	margin: 10px; /*Deixar responsivo*/
+	text-transform: uppercase;
+}
+
+.local {
+	background-color: #FFFFFF;
+	height: 600px;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;	
+	justify-items: center;
+}
+
+.localdiscription{
+	background-color: #25221E;
+	height: 50%;
+	width: 40%;
+}
+
+.footer {
+	background-color: #515151;
+	color: #fff;
+	font-size: 18px;
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo-footer {
+	
+}
+
+#menu-footer {
+	
+}
+
+#redes-sociais-footer {
+	
+}
+
+#copy {
+	
+}
