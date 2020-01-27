@@ -11,32 +11,22 @@
 	background-color: #515151;
 	font-size: 25px;
 	display: flex;
-}
-
-.navbar-logo{
-	flex-grow: 1;
-	padding-top: 10px;
-	padding-bottom: 10px; 
-}
-
-.navbar-logo a {
-	color: #fff;
-	text-decoration: none;
+	justify-content: center;
 }
 
 .navbar-menu {
 	color: #fff;
-	flex-grow: 2;
 }
 
 .menu {
 	list-style: none;
 	display: inline-flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 .menu li {
 	margin: 10px; /*Deixar responsivo*/
+	text-transform: uppercase;
 }
 
 .footer {
@@ -45,6 +35,23 @@
 	font-size: 18px;
 	padding: 8px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#logo-footer {
+	
+}
+
+#menu-footer {
+	
+}
+
+#redes-sociais-footer {
+	
+}
+
+#copy {
+	
 }
