@@ -114,6 +114,13 @@
 
 .atracoes {
 	background-color: red;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.slides {
+	width: 200px;
 }
 
 .local {
