@@ -1,4 +1,3 @@
-
 * {
 	padding: 0px;
 	margin: 0px;
@@ -104,10 +103,7 @@
 	width: 400px;	
 	border: 5px solid black; 
 	margin-top: 100px;
-<<<<<<< HEAD
-	margin-right: 180px;
-=======
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
+	margin-right: 20px;
 }
 
 html, body {
@@ -138,12 +134,15 @@ html, body {
 .contact {
 	background-color: #25221E;
 	display: flex;
+	flex-shrink: 1;
+  flex-grow: 1;
 	align-items: center;	
 	justify-content: center;
 }
 
 .aprox{	
 	display:flex;
+
 	justify-content: center;
 	align-items: center;	
 	justify-items: center;
@@ -153,7 +152,9 @@ html, body {
 .socialmedia {
 	background-color: #25221E;
 	width: 6%;
-	flex-grow: 1;
+	flex-shrink: 1;
+  flex-grow: 1;
+  
 	display: flex;
 	align-items: center;   
 	justify-items: flex-start;
@@ -162,6 +163,8 @@ html, body {
 
 .ticket-div {
 	display: flex;
+	flex-shrink: 1;
+  flex-grow: 1;
 	padding: 10px 5px;
 	flex-grow: 6;
 	justify-content: flex-end;
@@ -184,6 +187,8 @@ html, body {
 	background-color: #d3d3d3;
 	height: 320px;
 	display:flex;
+	flex-shrink: 1;
+  flex-grow: 1;
 }
 
 .container {
@@ -192,13 +197,16 @@ html, body {
 
 .navbar {
 	background-color: #008080;
-	font-size: 25px;
+	font-size: 23.5px;
+	font-family: Verdana;
 	display: flex;
+	flex-shrink: 1;
+  flex-grow: 1;
 	justify-content: center;
 }
 
 .navbar-menu {
-	
+
 }
 
 .menu {
@@ -219,6 +227,8 @@ html, body {
 
 .sobre {
 	display: flex;
+	flex-shrink: 1;
+  flex-grow: 1;
 	justify-content: center;
 	align-items: center;	
 	justify-items: center;
@@ -229,14 +239,12 @@ html, body {
 
 .space {
 	display: flex;
+	flex-shrink: 1;
+  flex-grow: 1;
 	justify-content: center;
 	align-items: center;	
 	justify-items: center;
-<<<<<<< HEAD
-	width: 50%;
-=======
-	width: 60%;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
+	width: 52%;
 	background-color: #696969;
 	height: 280px;
 }
@@ -245,28 +253,20 @@ html, body {
 	flex-grow: 2;
 	color: white;
 	font-family: Verdana;
-<<<<<<< HEAD
-	width: 122%;
-=======
 	width: 110%;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 	height: 260px;
-	background-color: #696969;
-	padding: 30px;
+	background-color: #696969;	
 }
 .sobre-img {
 	flex-grow: 1;
-<<<<<<< HEAD
-	width: 25%;
-	margin-right: 33px;
-=======
 	width: 40%;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .atracoes {	
 	width: 100%;
 	display: flex;
+	flex-shrink: 1;
+	flex-grow: 1;
 	justify-content: center;
 	align-items: center;	
 	justify-items: center;
@@ -278,6 +278,8 @@ html, body {
 
 .img-slide{
 	display:flex;
+	flex-shrink: 1;
+	flex-grow: 1;
 	justify-content: center;
 	align-items: center;	
 	justify-items: center;
@@ -290,31 +292,22 @@ html, body {
 	height: 350px;
 	width: 100%;
 	display:flex;
+
 	justify-content: center;
 	align-items: center;	
-<<<<<<< HEAD
-	justify-items: space-around;
-=======
 	justify-items: center;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .localdiscription{
 	background-color: black;
 	color: #FFFFFF;
 	height: 50%;
-<<<<<<< HEAD
-	width: 33%;	
+	width: 35%;	
 	display:flex;
-	margin-left: 190px;
 
-=======
-	width: 40%;	
-	display:flex;
 	justify-content: center;
 	align-items: center;	
 	justify-items: center;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .localtext{
@@ -325,57 +318,42 @@ html, body {
 
 .marcador{
 	display:flex;
+	flex-shrink: 1;
+	flex-grow: 1;
 	justify-content: start;
-<<<<<<< HEAD
-	margin-top:10px;
-	margin-left: 100px;
-=======
 	margin-top:2px;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .faq{
 	background-color: #008080;
 	width: 100%;
-<<<<<<< HEAD
-	margin-top: 50px;
-	height: 20px;
-=======
 	margin-top: 70px;
-	height: 100px;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
+	height: 40px;
 	display:flex;
+	flex-shrink: 1;
+	flex-grow: 1;
 	align-items: center;		
 }
 
 .written{
 	background-color: #008080;
-<<<<<<< HEAD
-	width: 40%;
-	height: 30px;
-	margin-top: 25px;	
-	margin-left: 247px;
-	display:flex;
-	align-items: center;	
-=======
 	width: 100%;
 	height: 20px;
-	margin-top: 79px;
+	margin-top: 50px;
 	display:flex;
+	flex-shrink: 1;
+	flex-grow: 1;
 	align-items: center;	
 	margin-left: 215px;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .containerfaq {
 	background-color: #008080;
-<<<<<<< HEAD
-	height: 270px;
-=======
-	height: 220px;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
+	height: 280px;
 	width: 100%;	
 	display:flex;
+	flex-shrink: 1;
+	flex-grow: 1;
 	align-items: center;	
 	justify-content: space-around;	
 }
@@ -385,25 +363,18 @@ html, body {
 	height: 80%;
 	width: 80%;
 	display:flex;
+	flex-shrink: 1;
+	
 	justify-content: center;
 	align-items: center;	
-<<<<<<< HEAD
-	justify-items: flex-end;
-=======
 	justify-items: center;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .questions1{
 	background-color: #008080;
 	height: 85%;
 	width: 40%;
-<<<<<<< HEAD
-	display:inline-block;
-	
-=======
 	display:inline-block;		
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .redcolumn{
@@ -422,23 +393,17 @@ html, body {
 .itemfaq{
 	background-color: #FFFFFF;
 	height: 19%;
-<<<<<<< HEAD
 	width: 93%;
-=======
-	width: 100%;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 	display:flex;	
+	flex-shrink: 1;
+	flex-grow: 1;
 	align-items: center;	
 	justify-content: center;
 }
 
 .showmore{
 	background-color: #FFFFFF;
-<<<<<<< HEAD
 	width: 93%;
-=======
-	width: 100%;
->>>>>>> 688d12eddd30d1a4cfaf33d607b23f76ead272a6
 }
 
 .textfaq{
@@ -460,23 +425,21 @@ html, body {
 	font-size: 18px;
 	padding: 8px;
 	display: flex;
+	flex-shrink: 1;
+	flex-grow: 1;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 #logo-footer {
-	
+
 }
 
 #menu-footer {
-	
+
 }
 
 #redes-sociais-footer {
-	
-}
 
-#copy {
-	
 }
